@@ -11,6 +11,7 @@ def main():
     n1 = request.args.get('nota1')
     n2 = request.args.get('nota2')
     resultado = ''
+    media = ''
     if n1 and n2:
         nota1 = float(n1)
         nota2 = float(n2)
